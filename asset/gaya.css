@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(40, 54,24);
+    justify-content: space-between;
+    padding: 20px 10px;
+    color: rgb(177, 156, 114);
+}
+
+nav .logo {
+    font-family: lato;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 30%;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color:rgb(177, 156, 114);
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: lato;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    nav ul {
+        width: 100%;
+        padding: none;
+    }
+}
+
+img {
+    border-radius: 15%;
+}
+
+header {
+    background-color: rgb(68, 77, 42);
+}
+
+header .profile {
+    position: absolute;
+    top: 330px;
+    left: 500px;
+}
+
+.pasfoto {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+}
+
+main {
+    background-color: rgb(173, 186, 147);
+    padding-top: 1px;
+}
+
+main .dudu {
+    text-align: center;
+    color: rgb(177, 156, 114);
+    font-family: lato;
+}
+
+.didi {
+    overflow: auto;
+}
+
+.dada {
+    width: 20%;
+    margin: 20px;
+    float: right;
+}
+
+main .dodo {
+    position: absolute;
+    top: 910px;
+    padding-left: 40px;
+    font-family: montserrat;
+    color: rgb(234, 230, 215);
+}
+
+main .mama {
+    text-align: center;
+    color: rgb(177, 156, 114);
+    font-family: lato;
+    font-size: 1.2em;
+}
+
+.mimi {
+    overflow: auto;
+}
+
+.mumu {
+    width: 20%;
+    margin: 20px;
+    float: left;
+}
+
+.meme {
+    position: absolute;
+    top: 1280px;
+    left: 310px;
+    font-family: montserrat;
+    color: rgb(234, 230, 215);
+}
+
+main .zaza {
+    text-align: center;
+    color: rgb(177, 156, 114);
+    font-family: lato;
+    font-size: 1.2em;
+}
+
+.zuzu {
+    width: 20%;
+    margin: 20px;
+    float: right;
+    height: 300px;
+}
+
+.zeze {
+    overflow: auto;
+}
+
+main .zozo {
+    position: absolute;
+    top: 1710px;
+    left: 20px;
+    font-family: montserrat;
+    color: rgb(234, 230, 215);
+}
+
+aside {
+    background-color: rgb(40, 54,24);
+    text-align: center;
+}
+
+aside ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+
+aside img {
+    width: 10%;
+}
+
+footer {
+    margin: 2%;
+    text-align: center;
+}
+
+.namas {
+    color: rgb(177, 156, 114);
+    font-size: 1.4em;
+    font-family: lato;
+}
+
+.profile {
+    color: rgb(234, 230, 215);
+    font-size: 1.2em;
+    font-family: montserrat;
+}
+
+.baba {
+    font-family: lato;
+    color: rgb(177, 156, 114);
+    font-size: 1.3em;
+}
+
+.copyr {
+    font-family: montserrat;
+}
+
+.kobo {
+    list-style: none;
+    font-family: lato;
+}
+
+.kaka {
+    text-align: center;
+    color: rgb(177, 156, 114);
+    font-size: 1.4em;
+    font-family: lato;
+}
+
+.keke {
+    width: 20%;
+    margin: 20px;
+    height: 300px;
+}
+
+.kuku {
+    color: rgb(234, 230, 215);
+    font-size: 1.2em;
+    font-family: montserrat;
+    text-align: center;
+}
+
+.kiki {
+    color: rgb(234, 230, 215);
+    font-size: 1.2em;
+    font-family: montserrat;
+    text-align: center;
+}
+
+.gmail {
+    color: rgb(234, 230, 215);
+    font-family: montserrat;
+}
